@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="312px" height="343px" viewBox="0 0 312 343" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M134.349859,5.49046585 C146.306902,-1.40782796 165.699557,-1.40410144 177.650141,5.49046585 L290.349859,70.5095342 C302.306902,77.407828 312,94.1917971 312,108.004576 L312,237.995424 C312,251.80507 302.300443,268.595899 290.349859,275.490466 L177.650141,340.509534 C165.693098,347.407828 146.300443,347.404101 134.349859,340.509534 L21.6501408,275.490466 C9.69309821,268.592172 0,251.808203 0,237.995424 L0,108.004576 C0,94.19493 9.6995575,77.4041014 21.6501408,70.5095342 L134.349859,5.49046585 Z" id="path-1"></path>
+        <path d="M134.367625,45.5145972 C146.314856,38.602976 165.684675,38.6027047 177.632375,45.5145972 L255.367625,90.4854028 C267.314856,97.397024 277,114.190696 277,128.009009 L277,217.990991 C277,231.803085 267.315325,248.602705 255.367625,255.514597 L177.632375,300.485403 C165.685144,307.397024 146.315325,307.397295 134.367625,300.485403 L56.6323751,255.514597 C44.6851442,248.602976 35,231.809304 35,217.990991 L35,128.009009 C35,114.196915 44.6846753,97.3972953 56.6323751,90.4854028 L134.367625,45.5145972 Z" id="path-3"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="9" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.807843137   0 0 0 0 0.807843137   0 0 0 0 0.807843137  0 0 0 0.9 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo" transform="translate(-94.000000, -77.000000)">
+            <g id="Group" transform="translate(94.000000, 77.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <path d="M156,83 L211.532222,116.319333 C223.374015,123.424409 232.973684,140.37182 232.973684,154.178629 L232.973684,216.815789 L177.441462,250.135123 C165.59967,257.240198 146.270738,257.461805 134.276744,250.634454 L79.0263158,219.184211 L79.0263158,154.179511 C79.0263158,140.374988 88.6194512,123.428329 100.467778,116.319333 L156,83 Z" id="Polygon-6" fill="#D8D8D8" opacity="0.75" mask="url(#mask-2)"></path>
+                <g id="Polygon-1" mask="url(#mask-2)" fill-opacity="1" fill="black">
+                    <use filter="url(#filter-4)" xlink:href="#path-3"></use>
+                </g>
+                <path d="M-18,93 L116.349859,170.509534 C128.306902,177.407828 138,194.191797 138,208.004576 L138,363 L-18,453 L-174,363 L-174,183 L-18,93 Z" id="Polygon-1" fill="#D8D8D8" opacity="0.75" mask="url(#mask-2)"></path>
+                <path d="M330,93 L486,183 L486,363 L330,453 L174,363 L174,208.004576 C174,194.19493 183.699557,177.404101 195.650141,170.509534 L330,93 Z" id="Polygon-1" fill="#D8D8D8" opacity="0.75" mask="url(#mask-2)"></path>
+                <path d="M156,-209 L312,-119 L312,61 L177.650141,138.509534 C165.693098,145.407828 146.300443,145.404101 134.349859,138.509534 L0,61 L0,-119 L156,-209 Z" id="Polygon-1" fill="#D8D8D8" opacity="0.75" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
