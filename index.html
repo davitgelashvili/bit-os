@@ -125,7 +125,9 @@
 
 			/*  Nucleus  */   
 			texturenucleus.anisotropy = 16;
-			let icosahedronGeometry = new THREE.IcosahedronGeometry(30, 10);
+			//stone
+			// let icosahedronGeometry = new THREE.IcosahedronGeometry(30, 10);
+			let icosahedronGeometry = new THREE.IcosahedronGeometry(0, 0);
 			let lambertMaterial = new THREE.MeshPhongMaterial({ map: texturenucleus });
 			nucleus = new THREE.Mesh(icosahedronGeometry, lambertMaterial);
 			scene.add(nucleus);
