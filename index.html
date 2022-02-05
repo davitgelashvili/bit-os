@@ -227,9 +227,9 @@
 				let time = Date.now();
 				v.normalize();
 				let distance = nucleus.geometry.parameters.radius + noise.noise3D(
-					v.x + time * 0.0005,
-					v.y + time * 0.0003,
-					v.z + time * 0.0008
+					v.x + time * 0.0001,
+					v.y + time * 0.0001,
+					v.z + time * 0.0001
 				) * blobScale;
 				v.multiplyScalar(distance);
 			})
@@ -237,13 +237,13 @@
 			nucleus.geometry.normalsNeedUpdate = true;
 			nucleus.geometry.computeVertexNormals();
 			nucleus.geometry.computeFaceNormals();
-			nucleus.rotation.y += 0.002;
+			nucleus.rotation.y += 0.0001;
 
 
 			//Sphere Beckground Animation
-			sphereBg.rotation.x += 0.002;
-			sphereBg.rotation.y += 0.002;
-			sphereBg.rotation.z += 0.002;
+			sphereBg.rotation.x += 0.0001
+			sphereBg.rotation.y += 0.0001
+			sphereBg.rotation.z += 0.0001
 
 			
 			controls.update();
