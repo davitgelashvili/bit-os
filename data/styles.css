@@ -77,11 +77,10 @@ body {
 }
 
 main {
-  background: -webkit-gradient(linear, right top, left top, from(rgba(255, 0, 0, 0.5)), color-stop(rgba(128, 0, 128, 0.5)), color-stop(rgba(0, 0, 255, 0.5)), color-stop(rgba(0, 128, 0, 0.5)), color-stop(rgba(255, 255, 0, 0.5)), to(rgba(255, 165, 0, 0.5)));
-  background: linear-gradient(-90deg, rgba(255, 0, 0, 0.5), rgba(128, 0, 128, 0.5), rgba(0, 0, 255, 0.5), rgba(0, 128, 0, 0.5), rgba(255, 255, 0, 0.5), rgba(255, 165, 0, 0.5));
+  background: linear-gradient(-45deg, rgba(255, 0, 0, 0.5), rgba(128, 0, 128, 0.5), rgba(0, 0, 255, 0.5), rgba(0, 128, 0, 0.5), rgba(255, 255, 0, 0.5), rgba(255, 165, 0, 0.5));
   background-size: 600% 600%;
-  -webkit-animation: gradient 20s ease infinite;
-          animation: gradient 20s ease infinite;
+  -webkit-animation: gradient 50s ease infinite;
+          animation: gradient 50s ease infinite;
   height: 100%;
   width: 100%;
 }

@@ -55,9 +55,9 @@ $color6: orange;
 	}
 
 	main {
-		background: linear-gradient(-90deg, rgba($color1, .5), rgba($color2, .5), rgba($color3, .5), rgba($color4, .5), rgba($color5, .5), rgba($color6, .5));
+		background: linear-gradient(-45deg, rgba($color1, .5), rgba($color2, .5), rgba($color3, .5), rgba($color4, .5), rgba($color5, .5), rgba($color6, .5));
 		background-size: 600% 600%;
-		animation: gradient 20s ease infinite;
+		animation: gradient 50s ease infinite;
 		height: 100%;
 		width: 100%;
 		// overflow: hidden;
